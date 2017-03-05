@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="urn:xsd:maven:pomx:5.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="urn:xsd:maven:pomx:5.0.0 https://raw.githubusercontent.com/t1/pomx/master/src/main/resources/schemas/pomx-5.0.0.xsd">
+
+    <war>test:pomx-test:1.0.0-SNAPSHOT</war>
+
+    <profile>com.github.t1:profile-javaee:7.0.0-SNAPSHOT</profile>
+    <profile>com.github.t1:profile-t1:1.0.0-SNAPSHOT</profile>
+    <profile>com.github.t1:profile-arquillian:1.1.12-SNAPSHOT</profile>
+
+    <dependencies>
+        <test>
+            <jar>org.assertj:assertj-core:3.6.2</jar>
+        </test>
+    </dependencies>
+</project>
